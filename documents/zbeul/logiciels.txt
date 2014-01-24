@@ -1,0 +1,11 @@
+logiciels pour travailler pendant les vacances
+
+notepad++
+IDE : Netbeans (yeah)  ou Eclipse (boo)
+WAMP SERVER : serveur apache, phpmyadmin, mysql
+
+
+
+sites :
+
+http://www.mindmup.com/#m:new

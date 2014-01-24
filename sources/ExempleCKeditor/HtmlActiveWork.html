@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title></title>
+        <link href="CssActiveWork.css" rel="stylesheet" />
+        <script src="Scripts/jquery-1.8.2.js"></script>
+        <script src="Scripts/ckeditor/ckeditor.js"></script>
+                <script type="text/javascript">
+
+                    //fonction pour ajouter les les articles a la page. Cette partie est en général géré en php.
+
+                    function Ajouter() {
+
+                        var content = CKEDITOR.instances.ckeditorTest.getData();
+                        var titre = $("input[name=titre]").val();
+
+                        // cette méthode ecrit du code html a la fin de la balise ciblée, ici #article => id=article
+                        $("#Articles").append("<article><h3>" + titre + "</h3>" + "<p>" + content + "</p></article>");
+                    }
+
+                    //fonction pour initialiser les éléments quand la page est prete.
+                    $(document).ready(function () {
+                        //fonction pour initialiser le plugin CKeditor
+                        CKEDITOR.replace('ckeditorTest');
+
+                        //fonction pour afficher ou cacher l'éditeur  
+                        $("#newBtn").click(
+                            function () {
+                                $("#newArticle").slideToggle();
+                            }
+                            );
+
+                    });
+
+        </script>
+
+    </head>
+    
+    <body>
+        
+        <section id="Articles">
+            
+            <article>
+                <h3>Titre</h3>
+                <p>
+                    Quibus occurrere bene pertinax miles explicatis ordinibus parans hastisque feriens scuta qui habitus
+                     iram pugnantium concitat et dolorem proximos iam gestu terrebat sed eum in certamen alacriter consurgentem 
+                    revocavere ductores rati intempestivum anceps subire certamen cum haut longe muri distarent, 
+                    quorum tutela securitas poterat in solido locari cunctorum.
+                </p>
+            </article>
+        </section>
+        <h1 id="newBtn">Nouveau</h1>
+        <!-- la form est en display none pour l initialisation, la fonction d'affichage change ce parametre -->
+        <form id="newArticle" style="display:none">
+            Titre
+            <input type="text" name="titre" maxlength="20"/>
+
+        <!-- pour etre initialiser,  -->
+            <textarea id="ckeditorTest" ></textarea>
+            <input type="button" onclick="Ajouter()" value="Ajouter" />
+        </form>
+    </body>
+    
+</html>
