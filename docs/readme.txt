@@ -1,1 +1,0 @@
-Répertoire contenant les documents techniques du projet Léonnie
