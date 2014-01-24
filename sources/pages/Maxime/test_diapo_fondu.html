@@ -1,0 +1,48 @@
+<html>
+	<body>
+		<script type="text/javascript">
+<!--
+			var timeDelay = 2;
+			var Pix = new Array("test1.jpg","test2.jpg","test3.jpg","test4.jpg");
+			var howMany = Pix.length;
+			timeDelay *= 1000;
+			var PicCurrentNum = 0;
+			var PicCurrent = new Image();
+			PicCurrent.src = Pix[PicCurrentNum];
+
+			function startPix() {
+				setInterval("slideshow()", timeDelay);
+			}
+
+			function doc(elt){
+				return document.getElementById(elt);
+			}
+
+			function slideshow() {
+				PicCurrentNum++;
+			
+				if (PicCurrentNum == howMany) {
+					PicCurrentNum = 0;
+				}
+    
+				doc('pixOne').style.filter = 'alpha(opacity=100)';
+				doc('pixOne').style.opacity = 1;
+				var interval = setInterval(function(){
+				var level = (document.getElementById('pixOne').style.opacity * 100) - 20;
+				doc('pixOne').style.filter = 'alpha(opacity='+level+')';
+				doc('pixOne').style.opacity = (level/100);
+        
+				if(level <= 0){
+					doc('pixOne').src = Pix[PicCurrentNum];
+					doc('pixOne').style.opacity = 1;
+					doc('pixOne').style.filter = 'alpha(opacity=100)';
+					next = (PicCurrentNum == howMany - 1) ? 0 : PicCurrentNum+1;
+					doc('pixTwo').src = Pix[next];
+					clearInterval(interval);
+				}
+				}, 100);
+			}
+//  End -->
+		</script>
+	</body>
+</html>
