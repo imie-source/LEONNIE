@@ -4,7 +4,7 @@
 
 <header>
 <?php
-include("../HTML/bandeau.html");
+include("../html/bandeau.html");
 ?>
 </header>
 
