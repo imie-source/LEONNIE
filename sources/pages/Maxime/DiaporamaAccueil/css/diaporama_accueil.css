@@ -1,0 +1,27 @@
+#PreviousButton{
+	width:10%; 
+	position: relative; 
+	left: 0px; 
+	top: -340px;
+	z-index : 10;
+}
+
+#NextButton{
+	width:10%; 
+	position: relative; 
+	right: -730px; 
+	top: -340px;
+	z-index : 10;
+}
+
+
+#slides{
+	margin : auto;
+	z-index : 1;
+	height: 480px;
+}
+
+#sousdiapo{
+	margin : auto;
+	width : 920px;
+}
