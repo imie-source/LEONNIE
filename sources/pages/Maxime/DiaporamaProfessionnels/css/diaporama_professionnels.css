@@ -2,15 +2,15 @@
 	width:10%; 
 	position: relative; 
 	left: 0px; 
-	top: -370px;
+	top: -275px;
 	z-index : 10;
 }
 
 #NextButton{
 	width:10%; 
 	position: relative; 
-	right: -730px; 
-	top: -370px;
+	right: -500px; 
+	top: -275px;
 	z-index : 10;
 }
 
