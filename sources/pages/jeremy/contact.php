@@ -38,7 +38,7 @@
 		
 		</div>
 		
-		<!-- Intégration du footer le footer intègre les fermetures body et html-->
+		<!-- Intégration du footer le footer n'intègre pas les fermetures body et html-->
 		<?php
 			include ("footer.html");
 		?>

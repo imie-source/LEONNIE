@@ -31,7 +31,7 @@
 			Venez découvrir son univers et entrez dans un quotidien naturel et coloré !<br />
 		</div>
 
-		<!-- Intégration du footer le footer intègre les fermetures body et html-->
+		<!-- Intégration du footer le footer n'intègre pas les fermetures body et html-->
 		<?php
 			include ("Footer.html");
 		?>
