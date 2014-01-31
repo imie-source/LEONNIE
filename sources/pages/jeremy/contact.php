@@ -16,6 +16,11 @@
 	</head>
 	
 	<body>
+		
+		<!-- Intégration du bandeau des réseaux sociaux -->
+		<?php
+			include ("reseauxSociaux.html")
+		?>
 
 		<!-- Intégration du bandeau -->
 		<?php
