@@ -1,0 +1,37 @@
+#doigt a {
+padding: 10px 10px 10px 77px;
+/* pour les vieux navigateurs */
+background:#585858 url(fleche.png) no-repeat 5px 10px; 
+/* pour les navigateurs récents */
+background: rgba(42,42,42,0.4) url(fleche.png) no-repeat 5px 10px;
+border: 0px solid #585858;
+border-radius: 5px;
+}
+p#doigt a:hover, p#doigt a:focus {
+color: black;
+background-color:#585858; /* pour les vieux navigateurs */
+background-color: rgba(42,42,42,1);
+-webkit-transition-property: background-color;
+-webkit-transition-duration: 2s;
+-webkit-transition-timing-fonction: linear;
+-webkit-transition: background-color 2s linear;
+-moz-transition: background-color 2s linear;
+-ms-transition: background-color 2s linear;
+-o-transition: background-color 2s linear;
+transition: background-color 2s linear;
+}
+/* première étape */
+p#doigt a:hover, p#doigt a:focus {
+background-color:#585858; /* pour les vieux navigateurs */
+color: black;
+-webkit-animation-name: doigt; /* nom de l'animation */
+-webkit-animation-duration: 4s; /* temps de l'animation (4s) */
+-webkit-animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+-webkit-animation-timing-function: linear; /* accelération de l'animation (constant) */
+}
+/* deuxième étape */
+@-webkit-keyframes doigt {
+0% {background:rgba(42,42,42,0.4) url(fleche.png) no-repeat 5px 10px;}
+50% {background:rgba(42,42,42,1) url(fleche.png) no-repeat 50px 10px;}
+100% {background:rgba(42,42,42,0.4) url(fleche.png) no-repeat 5px 10px;}
+}
