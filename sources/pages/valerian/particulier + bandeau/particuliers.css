@@ -1,0 +1,23 @@
+body{
+width: 1000px;
+margin-left:25%;
+margin-right:25%;
+}
+
+.paragraphe{
+font-family: Courier New;
+bottom: -5px;
+position:relative;
+}
+.leo{
+font-family: Freestyle Script;
+font-size:50px;
+}
+
+#categorie{
+display:block;
+padding: 50xp;
+font-family: Courier New;
+position: relative;top:-200px;left:20px;
+}
+
