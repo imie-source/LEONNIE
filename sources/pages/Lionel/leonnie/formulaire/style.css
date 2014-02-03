@@ -1,0 +1,54 @@
+body {
+	background:url(images/bg1.jpg) 100%;
+	margin:0;
+	padding:0;
+}
+#formulaire {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	width:530px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#formulaire input, #formulaire textarea {
+	width:100%;
+	font-family:inherit;
+	padding:5px;
+	border:1px solid #09F;
+}
+#formulaire textarea {
+	height:100px;
+	border:1px solid #09F;
+}
+#send_message {
+	width:200px !important;
+	font-variant: small-caps;
+	border:1px solid #09F;
+	cursor:pointer;
+	cursor:hand;
+}
+#cf_submit_p {
+	text-align:right;
+}
+.error {
+	display: none;
+	padding:5px;
+	margin-bottom:2px;
+	color: #D8000C;
+	font-size:12px;
+	background-color: #FFBABA;
+	border:1px solid #F00;
+}
+.success {
+	display: none;
+	padding:5px;
+	color: #044406;
+	font-size:12px;
+	background-color: #B7FBB9;
+}
+#contact_logo {
+	vertical-align: middle;
+}
+.error img {
+	vertical-align:top;
+}

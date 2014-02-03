@@ -1,0 +1,90 @@
+/*titre*/
+
+#leonnie {
+	text-align: center;
+	font-size: 70px;
+}
+
+#uncertainjenesaisquoi {
+	margin-left: 60%;
+}
+
+/*menu*/
+#menu{
+    margin: auto;
+    padding: 10px 0 0 0;
+    list-style: none;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+				0 3px 5px rgba(0, 0, 0, .2);
+	border-radius: 5px;
+}
+
+#menu li{
+    float: left;
+    padding: 0 0 10px 0;
+    position: relative;
+	text-align:center;
+	margin: auto;
+}
+
+#menu a{
+    float: center;
+    height: 25px;
+    padding: 0 25px;
+	font-size: 20px;
+    color: grey;
+    font: Helvetica;
+    text-decoration: none;
+}
+
+#menu li:hover > a{
+        color: black;
+}
+
+#menu li:hover > ul{
+        display: block;
+}
+
+/* Sous-menu */
+
+#menu ul {
+	text-align: center;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#menu ul li{
+    float: center;
+    margin: auto;
+    padding: 0;
+    display: block;
+}
+
+#menu ul a{
+	font-size: 17px;
+    padding: 10px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+	text-align:center;
+}
+
+#menu:after{
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+}

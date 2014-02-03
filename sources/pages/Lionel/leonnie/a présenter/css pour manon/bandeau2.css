@@ -1,0 +1,70 @@
+#menu ul {
+ margin:auto;
+ padding:0;
+ text-align:center;
+ }
+ 
+ #infomenu{
+ float:left;
+ width: 20%;
+	background: linear-gradient(#585858, #585858);
+	background: -webkit-linear-gradient(#585858, #585858);
+    background:    -moz-linear-gradient(#585858, #585858);
+    background:     -ms-linear-gradient(#585858, #585858);
+    background:      -o-linear-gradient(#585858, #585858);
+    background:         linear-gradient(#585858, #585858);
+	background: #585858;
+	border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+                0 3px 5px rgba(0, 0, 0, .2),
+                0 5px 10px rgba(0, 0, 0, .2),
+                0 25px 25px rgba(0, 0, 0, .15);
+}				
+ 
+#menu li{
+ float:left;
+ width: 20%;
+	background: linear-gradient(#585858, #585858);
+	background: -webkit-linear-gradient(#585858, #585858);
+    background:    -moz-linear-gradient(#585858, #585858);
+    background:     -ms-linear-gradient(#585858, #585858);
+    background:      -o-linear-gradient(#585858, #585858);
+    background:         linear-gradient(#585858, #585858);
+	background: #585858;
+	
+ }
+ 
+ul li a{
+    display: block;
+	margin:0auto;
+    text-align:center;
+    color: rgba(0, 0, 0, .7); 
+    text-decoration: none;
+    padding: 8px 8px 18px 8px;
+    border-radius: 3px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+	
+}
+ 
+.sousmenu{
+ width:20%;
+ }
+ 
+#menu li a:hover {
+ color:#FFD700;
+ }
+ 
+ #menu ul li ul {
+ display:none;
+ }
+ 
+ *#menu ul li:hover ul {
+ display:block;
+ }
+ 
+#menu li:hover ul li {
+ float:none;
+ }
+ 
+ 
+ .
