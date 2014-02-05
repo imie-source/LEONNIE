@@ -9,7 +9,7 @@ require_once('phpmailer/class.phpmailer.php');
 $destinataire = 'projet.leonnie@gmail.fr';
  
 // copie ? (envoie une copie au visiteur)
-$copie = 'oui'; // 'oui' ou 'non'
+$copie = 'non'; // 'oui' ou 'non'
  
 // Messages de confirmation du mail
 $message_envoye = "Votre message nous est bien parvenu !";
