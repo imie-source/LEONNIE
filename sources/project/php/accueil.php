@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
 <html>
-
-<head>
-		<link href="DiaporamaAccueil/css/diaporama_accueil.css" rel="stylesheet" media="all" type="text/css">
+	<head>
+	
+		<link href="../css/diaporama_accueil.css" rel="stylesheet" media="all" type="text/css">
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		<script src="DiaporamaAccueil/js/jquery.slides.js"></script>
+		<script src="../js/jquery.slides-accueil.js"></script>
 
 		<script>
 			$(function(){
@@ -15,24 +15,24 @@
 				});
 			});
 		</script>
-</head>
+		
+	</head>
 
-<header>
-<?php
-include("bandeau.html");
-?>
-</header>
-
-<body>
-
+	<body>
+	
+		<header>
+			<?php
+			include("../html/bandeau.html");
+			?>
+		</header>
+		
 		<div id="slides"  style="width: 940px; height: 518px;">
-			<img src = "DiaporamaAccueil\medias\01.jpg"/>
-			<img src = "DiaporamaAccueil\medias\02.jpg" />
-			<img src = "DiaporamaAccueil\medias\03.jpg" />
-			<img src = "DiaporamaAccueil\medias\04.jpg" />
-			<input type = "image" src = "DiaporamaAccueil\medias\previous.png" id = "PreviousButton" class = "slidesjs-previous slidesjs-navigation"></input>
-			<input type = "image" src = "DiaporamaAccueil\medias\next.png" id = "NextButton" class = "slidesjs-next slidesjs-navigation"></input>
-			
+			<img src = "../medias/images/01.jpg"/>
+			<img src = "../medias/images/02.jpg" />
+			<img src = "../medias/images/03.jpg" />
+			<img src = "../medias/images/04.jpg" />
+			<input type = "image" src = "../medias/images/previous.png" id = "PreviousButton" class = "slidesjs-previous slidesjs-navigation"></input>
+			<input type = "image" src = "../medias/images/next.png" id = "NextButton" class = "slidesjs-next slidesjs-navigation"></input>
 		</div>
 	
 		<div id = "sousdiapo" style="">
@@ -44,12 +44,11 @@ include("bandeau.html");
 		
 		</div>	
 
-</body>
-
-<footer>
-<?php
-include("footer.html");
-?>
-</footer>
-
+		<footer>
+			<?php
+			include("../html/footer.html");
+			?>
+		</footer>
+		
+	</body>
 </html>

@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 
 <html>
-
 	<head>
 	
-	<meta charset="utf-8" />
-	
-	<title>Cour de patine</title>
-	
+		<meta charset="utf-8" />
+		<title>Cour de patine</title>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="../js/jquery.slides-cours.js"></script>
+		<script>
+			$(function(){
+				$("#slides").slidesjs({
+				width: 940,
+				height: 528
+				});
+			});
+		</script>
+		
 	</head>
 	
 	<body>
 		
 		<!-- Intégration du bandeau des réseaux sociaux -->
 		<?php
-			include ("reseauxSociaux.html")
+		//	include ("../html/reseauxSociaux.html")
 		?>
 		
 		<!-- Intégration du bandeau -->
 		<?php
-			include ("bandeau.html");
+			include ("../html/bandeau.html");
 		?>
 	
 		<!-- Intégration du bandeau de central où défile les images -->
@@ -99,7 +107,7 @@
 			
 				<!-- Intégration du footer le footer n'intègre pas les fermetures body et html-->
 		<?php
-			include ("footer.html");
+			include ("../html/footer.html");
 		?>
 			
 	</body>
