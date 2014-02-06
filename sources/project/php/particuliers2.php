@@ -6,9 +6,9 @@
 	
 	
 	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="particuliers.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/particuliers2.css" media="all">
 
-		<link href="css/diaporama_particuliers.css" rel="stylesheet" media="all" type="text/css">
+		<link href="../css/diaporama_particuliers.css" rel="stylesheet" media="all" type="text/css">
 
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="js/jquery.slides.js"></script>
