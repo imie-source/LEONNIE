@@ -7,11 +7,12 @@
 		<title>Cour de patine</title>
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="../js/jquery.slides-cours.js"></script>
+
 		<script>
 			$(function(){
 				$("#slides").slidesjs({
-				width: 940,
-				height: 528
+				width: 620,
+				height: 420
 				});
 			});
 		</script>

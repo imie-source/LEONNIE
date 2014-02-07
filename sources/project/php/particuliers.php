@@ -42,7 +42,6 @@
 		<div id="categorie">
 			<a href="../php/particuliers.php">Particuliers</a></br>
 			<a href="../php/professionnels.php">Professionnels</a></br>
-			<a href="../php/cours.php">Cours</a></br>
 		</div>
 		
 		<!-- Intégration du texte central -->
