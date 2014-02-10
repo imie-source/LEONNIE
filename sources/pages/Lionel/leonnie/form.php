@@ -119,6 +119,8 @@ else
 	// formulaire envoyé, on récupère tous les champs.
 
 	$nom     = (isset($_POST['nom']))     ? Rec($_POST['nom'])     : '';
+	
+	$prenom     = (isset($_POST['prenom']))     ? Rec($_POST['prenom'])     : '';
 
 	$email   = (isset($_POST['mail']))   ? Rec($_POST['mail'])   : '';
 
@@ -142,7 +144,7 @@ else
 
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
 
-		$headers .= 'From:'.$nom.' <'.$email.'>' . "\r\n" .
+		$headers .= 'From:'.$nom.' '.$prenom.' <'.$email.'>' . "\r\n" .
 
 					'Reply-To:'.$email. "\r\n" .
 
