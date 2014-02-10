@@ -1,0 +1,126 @@
+#menu {
+	font-family: Courier New;
+	margin: auto;
+    padding: 0;
+	list-style-type: none;
+	text-align: center;
+    position: relative;
+	width: 1000px;
+}
+
+#menu ul {
+	margin: auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+    display: none;
+    position: absolute;
+    left: 0;
+    z-index: 99999;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+				0 3px 5px rgba(0, 0, 0, .2);
+	background: white;
+}
+
+#trait1 {
+	margin: auto;
+    padding: 0;
+	border-top: 1px solid black;
+	text-align: center;
+	width: 1000px;
+	position: relative;
+}
+
+#trait2 {
+	margin: auto;
+    padding: 0;
+	border-top: 1px solid black;
+	text-align: center;
+	width: 1000px;
+	position: relative;
+	top: 54px;
+}
+
+#menu a{
+    height: 15px;
+    padding: 20px 20px;
+	font-size: 16px;
+    color: grey;
+    text-decoration: none;
+}
+
+#menu #creations a{
+    height: 15px;
+    padding: 20px 20px;
+	font-size: 16px;
+    color: grey;
+    text-decoration: none;
+}
+
+#menu #cours a{
+    height: 15px;
+    padding: 20px 20px;
+	font-size: 16px;
+    color: grey;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: orange;
+	background: rgba(206, 206, 206,.2);
+}
+
+#menu li:hover > ul{
+    display: block;
+}
+
+#menu #creations a:hover{
+    color: orange;
+	background: rgba(206, 206, 206,.2);
+}
+
+#menu #cours a:hover{
+    color: orange;
+	background: rgba(206, 206, 206,.2);
+}
+
+li {
+	float:left;
+	margin:auto;
+	position: relative;
+}
+
+li a {
+	display: block;
+	width: 102.5px;
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#creations a {
+	display:block;
+	width:200px;
+	color:black;
+	text-decoration:none;
+	padding:5px;
+}
+#cours a {
+	display:block;
+	width:150px;
+	color:black;
+	text-decoration:none;
+	padding:5px;
+}
+
+
+ul li ul {
+	display:none;
+}
+
+ul li:hover ul {
+	display:block;
+}
+li:hover ul li {
+	float:none;
+}
