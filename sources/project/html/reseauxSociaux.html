@@ -1,0 +1,31 @@
+
+	<!-- XFBML, ajouter ceci à la balise html du doc pour la compatibilité IE facebook-->
+		<html xmlns:fb="http://ogp.me/ns/fb#">
+	<body>
+	<!--SDK POUR FACEBOOK-->
+		<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			
+	<!--Afficher un bouton "pin-it" à côté d'une image-->
+		<!-- La couleur est changeable : modifier data-pin-color="white"
+		<!-- La taille aussi : modifier data-pin-height="28"
+		<!-- Pour un bouton de forme circulaire : data-pin-shape="round"-->
+		<!-- Pour afficher le nombre d'épingles au dessus du bouton : data-pin-config="above"--> 
+		<!-- Pour afficher le nombre d'épingles à côté du bouton : data-pin-config="beside"-->
+		<!-- Pour ne pas afficher le nombre d'épingles : data-pin-config="none"-->
+
+	<!-- Please call pinit.js only once per page -->
+	<script type="text/javascript" async src="//assets.pinterest.com/js/pinit.js"></script>
+	<br/>
+	<a data-pin-do="buttonPin" href="http://fr.pinterest.com/testotesto5030/" data-pin-height="28"></a>
+	<br />
+	
+	<!--Afficher un bouton like à coté d'une image-->
+	<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count"  data-show-faces="false" data-share="false">
+	</div>	<br /><br />

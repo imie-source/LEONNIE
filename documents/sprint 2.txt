@@ -1,0 +1,6 @@
+Tâches restantes du sprint précédent: Modifications et finir la base de données, finir bandeau.
+Pages créations à faire (données reçues pas celine vendredis) + CSS.
+Icônes sociales à modifier si possible(fb, pint).
+Si possible: CSS ébauche de la page service et du blog.
+Commencer son interface (php, javascript).
+Si possible: Intégration de la connection (id et mdp) pour l'admin.
