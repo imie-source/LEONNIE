@@ -1,15 +1,17 @@
 #PreviousButton{
 	width:10%; 
 	position: relative; 
-	left: 0px; 
+	left: 2px; 
 	top: -370px;
 	z-index : 10;
 }
 
 #NextButton{
+	
 	width:10%; 
-	position: relative; 
-	right: -730px; 
+	position: relative;
+	cursor: pointer;
+	right: -745px; 
 	top: -370px;
 	z-index : 10;
 }
