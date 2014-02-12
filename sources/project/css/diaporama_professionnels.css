@@ -30,40 +30,5 @@
 	position: relative;
 	margin: auto;
 	left: 150px;
-}
-
-#categories {
-	margin: -300px auto;
-	text-align: left;
-    position: relative;
-	width: 940px;
-	list-style-type: none;
-	display: block;
-	padding: 15px 0 0 0;
-}
-
-li a {
-	display:block;
-	width:100px;
-	color:black;
-	text-decoration:none;
-	padding:5px;
-}
-
-li {
-	float:left;
-	margin:auto;
-	padding:0;
-}
-
-#text {
-	text-align: justify;
-	font-family: Courier New;
-	position: relative;
-	width: 940px;
-	margin: 560px auto;
-}
-
-.footer {
-	margin: -450px auto;
+	top: 104px;
 }

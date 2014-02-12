@@ -11,3 +11,37 @@
 	width: 1000px;
 	margin: auto;
 }
+
+#sousdiapo{
+	font-family: Courier New;
+	margin : auto;
+	width : 940px;
+	margin-top: 20px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+#categories {
+	margin: -300px auto;
+	text-align: left;
+    position: relative;
+	width: 940px;
+	font-size: 20px;
+}
+
+.cat {
+	margin-top:40px;
+}
+
+#text {
+	text-align: justify;
+	font-family: Courier New;
+	position: relative;
+	width: 940px;
+	margin: 440px auto;
+	top: 60px;
+}
+
+.footer {
+	margin: -450px auto;
+}
