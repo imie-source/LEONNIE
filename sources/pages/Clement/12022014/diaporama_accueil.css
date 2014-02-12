@@ -2,16 +2,15 @@
 	width:10%; 
 	position: relative; 
 	left: 2px; 
-	top: -370px;
+	top: -380px;
 	z-index : 10;
 }
 
 #NextButton{
 	width:10%; 
-	position: relative;
-	cursor: pointer;
+	position: relative; 
 	right: -745px; 
-	top: -370px;
+	top: -380px;
 	z-index : 10;
 }
 
@@ -20,15 +19,14 @@
 	margin : auto;
 	z-index : 1;
 	height: 480px;
-	display:none;
-	box-shadow : 0 1px 3px rgba(0 , 0 , 0 , .3),
-				 0 3px 5px rgba(0 , 0 , 0 , .2);
+	margin-top: 154px;
 }
 
 #sousdiapo{
+	font-family: Courier New;
 	margin : auto;
 	width : 940px;
-	margin-top : 20px;
-	text-align : justify;
-	font-family : Courier New;
+	margin-top: 50px;
+	text-align: justify;
+	font-size: 20px;
 }
