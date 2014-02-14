@@ -1,36 +1,29 @@
-body{
-width: 1000px;
-margin-left:25%;
-margin-right:25%;
+#categories {
+	text-align: center;
+    position: relative;
+	font-size: 20px;
+	list-style-type: none;
+    width: 50px;
+    padding: 5px;
+	margin: auto;
+	top: -130px;
+	left: -450px;
 }
 
-.paragraphe{
-font-family: Courier New;
-bottom: -35px;
-position:relative;
-left: -250px;
+
+#categories a:hover {
+	color: orange;
 }
 
-.paragraphe1{
-font-family: Courier New;
-bottom: -5px;
-position:relative;
-left: -5px;
+#text {
+	text-align: justify;
+	font-family: Courier New;
+	position: relative;
+	width: 940px;
+	margin: 180px auto 0 auto;
 }
 
-.leo{
-font-family: Freestyle Script;
-font-size:50px;
-}
-
-#categorie ul{
-display: block;
-font-family: Courier New;
-position: relative;top:-400px;left:20px;
-width:20px;
-text-shadow: 0 1px 0 rgba(139, 139, 139, .4);
-            transition: background .4s;
-color: lightgrey;
-list-style-type: none;
+.footer {
+	margin: 50px 0 0 0;
 }
 

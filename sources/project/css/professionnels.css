@@ -1,36 +1,18 @@
 #categories {
-	position: realtive;
-	width: 1000px;
-	margin: 0 auto;
-}
-
-#text {
-	text-align: justify;
-	font-family: Courier New;
-	position: relative;
-	width: 1000px;
-	margin: auto;
-}
-
-#sousdiapo{
-	font-family: Courier New;
-	margin : auto;
-	width : 940px;
-	margin-top: 20px;
-	text-align: justify;
-	font-size: 20px;
-}
-
-#categories {
-	margin: -300px auto;
-	text-align: left;
+	text-align: center;
     position: relative;
-	width: 940px;
 	font-size: 20px;
+	list-style-type: none;
+    width: 50px;
+    padding: 5px;
+	margin: auto;
+	top: -130px;
+	left: -450px;
 }
 
-.cat {
-	margin-top:40px;
+
+#categories a:hover {
+	color: orange;
 }
 
 #text {
@@ -38,10 +20,9 @@
 	font-family: Courier New;
 	position: relative;
 	width: 940px;
-	margin: 440px auto;
-	top: 60px;
+	margin: 180px auto 0 auto;
 }
 
 .footer {
-	margin: -450px auto;
+	margin: 50px 0 0 0;
 }
