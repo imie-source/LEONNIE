@@ -1,7 +1,7 @@
 #PreviousButton{
 	width:10%; 
 	position: relative; 
-	left: 0px; 
+	left: -490px; 
 	top: -275px;
 	z-index : 10;
 }
@@ -9,25 +9,27 @@
 #NextButton{
 	width:10%; 
 	position: relative; 
-	right: -500px; 
+	right: 00px; 
 	top: -275px;
 	z-index : 10;
 }
 
 
 #slides{
-	margin : auto;
+	margin : 0 auto;
+	text-align: right;
+    position: relative;
+	width: 940px;
+}
+
+#slides{
 	z-index : 1;
-	height: 475px;
+	height: 480px;
 	display:none;
 	box-shadow : 0 1px 3px rgba(0 , 0 , 0 , .3),
 				 0 3px 5px rgba(0 , 0 , 0 , .2);
-}
-
-#sousdiapo{
-	margin : auto;
-	width : 940px;
-	margin-top : 20px;
-	text-align : justify;
-	font-family : Courier New;
+	position: relative;
+	margin: auto;
+	left: 150px;
+	top: 104px;
 }
