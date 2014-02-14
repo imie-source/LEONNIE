@@ -5,13 +5,16 @@
 	
 		<meta charset="utf-8" />
 		<title>Cour de patine</title>
+		<link href="../css/diaporama_cours.css" rel="stylesheet" media="all" type="text/css">
+		<link href="../css/cours.css" rel="stylesheet" media="all" type="text/css">
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="../js/jquery.slides-cours.js"></script>
+
 		<script>
 			$(function(){
 				$("#slides").slidesjs({
-				width: 940,
-				height: 528
+				width: 620,
+				height: 420
 				});
 			});
 		</script>
@@ -20,27 +23,32 @@
 	
 	<body>
 	
-		<!-- Intégration du bandeau de central où défile les images -->
-		<div>
-		
-			<p> Photos du déroulement du cours</br>
-			1.meuble brut</br>
-			2.conseils couleurs</br>
-			3.étape 1</br>
-			4.meuble fini</br>
-			5.meuble en situation</p>
-			
-			</div>
+		<div id="positionslide">
+		<div id="slides"  style="width: 620px; height: 410px;">
+			<img src = "../medias/images/01.jpg"/>
+			<img src = "../medias/images/02.jpg" />
+			<img src = "../medias/images/03.jpg" />
+			<img src = "../medias/images/04.jpg" />
+			<input type = "image" src = "../medias/images/previous.png" id = "PreviousButton" class = "slidesjs-previous slidesjs-navigation"></input>
+			<input type = "image" src = "../medias/images/next.png" id = "NextButton" class = "slidesjs-next slidesjs-navigation"></input>
+		</div>
+		</div>
 			
 		<!-- Intégration du bandeau de gauche -->
-			<div>
-			<p><a href="">Stage</a></br>
-			<a href="">Lieux</a></br>
-			<a href="">Dates</a></br>
-			</div>
+		<ul id="categories">
+			<li>
+				<a href="stages.php">Stages</a>
+			</li>
+			<li>
+				<a href="lieux.php">Lieux</a>
+			</li>
+			<li>
+				<a href="dates.php">Dates</a>
+			</li>
+		</ul>
 		
 		<!-- Intégration du texte central -->
-			<div>
+			<div id="text">
 			
 				<p> Patiner un meuble, ça n’est pas que l’application d’une simple peinture !</br>
 				</br>
