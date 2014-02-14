@@ -1,7 +1,7 @@
 #PreviousButton{
 	width:10%; 
 	position: relative; 
-	left: -490px; 
+	right: -490px; 
 	top: -275px;
 	z-index : 10;
 }
