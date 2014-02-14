@@ -24,7 +24,6 @@ ul#galerie_mini li a img
 {
 	width:100%;
 	margin :auto;
-  border: 1px solid #dcb ;
 }
 
 dl#photo
@@ -48,12 +47,10 @@ dl#photo img
 {
 	width:1000px;
 	height:562px;
-  border: 1px solid #dcb ;
 }
 
 img{
 	width : 20%;
 	margin-right : 5px;
 	margin-bottom : 5px;
-	border : 3px solid #dcb;
 }

@@ -1,4 +1,4 @@
-<?php
+
 '<html>
 <head>
 <?php include ("bandeau.html"); ?>
@@ -33,4 +33,3 @@
 </form>
 </body>
 </html>'
-?>
