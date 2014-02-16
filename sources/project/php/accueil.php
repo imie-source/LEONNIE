@@ -2,7 +2,7 @@
 
 	/* Intégration du bandeau */
 	
-	include ("../html/bandeau.html");
+	include ("bandeau.php");
 
 	
 	/* Intégration du contenu de la page */

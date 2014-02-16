@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-	<title>Blog</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-	<link href="clement.css" rel="stylesheet" media="all" type="text/css">  
-</head>
-
-<body>
-
 <!-- Inclusion du Bandeau et de la nav !-->
 <?php
 
- include "../html/bandeau.html";
+ include "../html/bandeau.php";
 ?>
 
 	<div>

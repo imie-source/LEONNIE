@@ -1,16 +1,16 @@
 <?php
 	
-	/* Intégration du bandeau */
+	/* Intï¿½gration du bandeau */
 	
-	include ("../html/bandeau.html");
+	include ("../html/bandeau.php");
 	
 	
-	/* Intégration du contenu de la page */
+	/* Intï¿½gration du contenu de la page */
 	
 	include ("../html/decorations.html");
 	
 	
-	/* Intégration du footer */
+	/* Intï¿½gration du footer */
 	
 	include ("../html/footer.html");
 

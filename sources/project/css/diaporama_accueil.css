@@ -1,3 +1,8 @@
+#page {
+    width:1000px;
+    margin:auto;
+}
+
 #PreviousButton{
 	width:10%; 
 	position: relative; 
@@ -24,9 +29,7 @@
 
 #sousdiapo{
 	font-family: Courier New;
-	margin : auto;
 	width : 940px;
-	margin-top: 50px;
 	text-align: justify;
 	font-size: 20px;
 }

@@ -16,3 +16,9 @@
 		
 	</div>
 </footer>
+</div> <!-- end of div#page open in bandeau.html -->
+</body>
+</html>
+
+<?php
+dbdisconnect($glob_dbh);
