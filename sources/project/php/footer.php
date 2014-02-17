@@ -12,7 +12,7 @@
 					
 					<a href="../medias/pdf/apropos.pdf"> A propos </a>
 					<a href="../medias/pdf/cgv.pdf"> CGV </a>
-					<a href="../html/contact.html"> Contact </a>
+					<a href="../php/contact.php"> Contact </a>
 					
 				</div>
 			</footer>
