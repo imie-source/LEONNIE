@@ -1,0 +1,32 @@
+#PreviousButton{
+	width:10%; 
+	position: relative; 
+	left: 2px; 
+	top: -380px;
+	z-index : 10;
+}
+
+#NextButton{
+	width:10%; 
+	position: relative; 
+	right: -745px; 
+	top: -380px;
+	z-index : 10;
+}
+
+
+#slides{
+	margin : auto;
+	z-index : 1;
+	height: 480px;
+	margin-top: 154px;
+}
+
+#sousdiapo{
+	font-family: Courier New;
+	margin : auto;
+	width : 940px;
+	margin-top: 50px;
+	text-align: justify;
+	font-size: 20px;
+}

@@ -1,0 +1,56 @@
+div#galerie
+{
+  width: 1000px ;
+  padding: 150px ;
+  margin:auto;
+  text-align: center ;
+  font: 0.9em Georgia, serif ;
+}
+ul#galerie_mini
+{
+  text-align: center ;
+  margin : auto;
+  position: relative;
+  list-style-type: none ;
+}
+
+ul#galerie_mini li
+{
+  float: left ;
+  
+}
+
+ul#galerie_mini li a img
+{
+	width:100%;
+	margin :auto;
+}
+
+dl#photo
+{
+  clear: both ;
+  margin:auto ;
+}
+
+dl#photo dt
+{
+  font: italic 2.5em/1.5em Georgia, serif ;
+  color: #dcb ;
+}
+
+dl#photo dd
+{
+  margin: auto ;
+}
+
+dl#photo img
+{
+	width:1000px;
+	height:562px;
+}
+
+ul#galerie_mini img{
+	width : 20%;
+	margin-right : 5px;
+	margin-bottom : 5px;
+}
