@@ -34,7 +34,7 @@ $message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
 
 // Messages d'erreur du formulaire
 
-$message_erreur_formulaire = "Vous devez d'abord <a href=\"form2.html\">envoyer le formulaire</a>.";
+$message_erreur_formulaire = "Vous devez d'abord <a href=\"../html/form_contact.html\">envoyer le formulaire</a>.";
 
 $message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis et que l'email soit sans erreur.";
 
@@ -218,7 +218,7 @@ else
 
 		// une des 3 variables (ou plus) est vide ...
 
-		echo '<p>'.$message_formulaire_invalide.' <a href="contact.html">Retour au formulaire</a></p>'."\n";
+		echo '<p>'.$message_formulaire_invalide.' <a href="../html/contact.html">Retour au formulaire</a></p>'."\n";
 
 	};
 
