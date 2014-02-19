@@ -1,0 +1,91 @@
+<?php
+include_once 'config.inc.php';
+include_once 'bdd.inc.php';
+
+//$glob_dbh = dbconnect($hote, $port, $utilisateur, $motdepasse, $nomBase);
+
+?>
+
+<!DOCTYPE html>
+
+<html xmlns:fb="http://ogp.me/ns/fb#">
+
+    <head>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Léonnie</title>
+		
+        <link href="../css/fonts.css" rel="stylesheet" media="all" type="text/css">
+        <link href="../css/bandeau.css" rel="stylesheet" media="all" type="text/css">
+        <link href="../css/cours.css" rel="stylesheet" media="all" type="text/css" />		
+		<link href="../css/creations.css" rel="stylesheet" media="all" type="text/css" />  
+        <link href="../css/accueil.css" rel="stylesheet" media="all" type="text/css" />
+        <link href="../css/footer.css" rel="stylesheet" media="all" type="text/css" />
+        <link href="../css/form_contact.css" rel="stylesheet" media="all" type="text/css" />
+        <link href="../css/galerie.css" rel="stylesheet" media="all" type="text/css" />		
+
+  
+  		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  
+    </head>
+    
+	<body>
+
+	<div id="logo"><img src="../medias/bandeau/leonnie.jpg"></div>
+
+
+	<div id="icones">
+	<a href="facebook.com"><img src="../medias/bandeau/facebook.png" alt="Facebook"/></a>
+	<a href="pinterest.com"><img src="../medias/bandeau/pinterest.png" alt="Pinterest"/></a>
+	<a href="rss.com"><img src="../medias/bandeau/rss.png" alt="RSS"/></a>
+	<a href="leonnie.com"><img src="../medias/bandeau/fren.png" alt="FrEn"/></a>
+	</div>
+
+	<div id="trait1"><img src="../medias/bandeau/menu-barre.jpg"></div>
+	<ul id="menu">
+		<li>
+			<a href="accueil.php">ACCUEIL</a>
+		</li>
+		
+		<li>
+			<a href="">BOUTIQUE</a>
+				<ul>
+					<li>
+						<a href="mobilier.php">Mobilier</a>
+					</li>
+					
+					<li>
+						<a href="decoration.php">Décoration</a>
+					</li>
+				</ul>
+		</li>
+		
+		<li id="creations">
+			<a href="">CREATIONS SUR-MESURE</a>
+				<ul>
+					<li>
+						<a href="particuliers.php">Particuliers</a>
+					</li>
+					
+					<li>
+						<a href="professionnels.php">Professionnels</a>
+					</li>
+				</ul>
+		</li>
+		
+		<li id="cours">
+			<a href="cours.php">COURS DE PATINE</a>
+		</li>
+
+		<li>
+			<a href="galerie.php">GALERIE</a>
+		</li>
+			
+		<li>
+			<a href="blog.php">BLOG</a>
+		</li>
+		
+	</ul>
+	<div id="trait2"><img src="../medias/bandeau/menu-barre.jpg"></div>
+				
+	<!-- Fin de : bandeau -->

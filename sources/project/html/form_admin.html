@@ -1,12 +1,14 @@
-	<div id = "formadmin">
+<!-- Début de : formulaire de connection pour l'admin-->
+<div id = "formadmin">
+
+	<p>Connexion pour l'administration</p>
 	
-		<!-- Formulaire de connection pour l'admin-->
-	
-		<p><strong>Connexion pour l'administration</strong></p>
+		<form action="../php/admin.php" method="post" name="admin">
 		
-			<form action="../php/admin.php" method="post" name="admin">
-				<input type="text" name="identifiant" id="identifiant" placeholder="Identifiant" size="30" autofocus />
-				<input type="password" name="mdp" id="mdp" placeholder="mdp" size="30" />
-				<input type="submit" name="connexion" value="Connexion">
-			</form>
-	</div>
+			<input type="text" name="identifiant" id="identifiant" placeholder="Identifiant" size="30" autofocus />
+			<input type="password" name="mdp" id="mdp" placeholder="Mot de passe" size="30" />
+			<input type="submit" name="connexion" value="Connexion">
+			
+		</form>
+</div>
+<!-- Fin de : formulaire de connection pour l'admin-->
