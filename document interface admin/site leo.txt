@@ -1,0 +1,27 @@
+- Suivit de la navigation : Breadcrumbs
+
+http://getbootstrap.com/components/#breadcrumbs
+
+
+- Tableau administration : grid
+
+http://getbootstrap.com/examples/grid/
+
+
+- Empêcher clique droit
+
+http://www.w3schools.com/js/tryit.asp?filename=tryjs_events_onmousedown2
+
+
+- Insérer descriptif images : Thumbnails
+
+http://getbootstrap.com/components/#thumbnails
+
+- Insérer nouveau champ
+
+https://jqueryui.com/dialog/#modal-form
+
+
+- Naviguer entre les catégories
+
+https://jqueryui.com/menu/#default
