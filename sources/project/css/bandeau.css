@@ -34,7 +34,10 @@
 }
 
 #menu ul li a {
+	font-size: 18px;
+}
 
+#menu #creations ul li a {
 	font-size: 18px;
 }
 

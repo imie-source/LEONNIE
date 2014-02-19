@@ -12,19 +12,19 @@
 
 
 #categories a:hover {
-	color: orange;
+	color: #ffa0ff;
 }
 
 #text {
 	text-align: justify;
-	font-family: Courier New;
+	font-family: Helvetica Neue;
 	position: relative;
 	width: 940px;
-	margin: 180px auto 0 auto;
+	top: -180px;
 }
 
 #PreviousButton{
-	width:10%; 
+	width: 10%; 
 	position: relative; 
 	right: -490px; 
 	top: -275px;
@@ -32,7 +32,7 @@
 }
 
 #NextButton{
-	width:10%; 
+	width: 10%; 
 	position: relative; 
 	right: 0px; 
 	top: -275px;

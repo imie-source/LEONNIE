@@ -2,22 +2,27 @@
 	text-align: center;
     position: relative;
 	font-size: 20px;
-	list-style-type: none;
     width: 50px;
     padding: 5px;
 	margin: auto;
-	top: -130px;
-	left: -450px;
+	top: -300px;
+	right: -400px;
 }
 
+#categories a {
+	font-family: Rokkitt;
+	color: black;
+	list-style-type: none;
+	text-decoration: none;
+}
 
 #categories a:hover {
-	color: #ff38f4;
+	color: #ffa0ff;
 }
 
 #text {
 	text-align: justify;
-	font-family: Courier New;
+	font-family: Helvetica Neue;
 	position: relative;
 	width: 940px;
 	margin: 180px auto 0 auto;
