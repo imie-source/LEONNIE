@@ -1,12 +1,19 @@
+#logo {
+	position: relative;
+	text-align: center;
+	
+}
+
 #menu {
 	font-family: Courier New;
 	margin: auto;
-    padding: 1px;
+    padding: 0;
 	list-style-type: none;
 	text-align: center;
     position: relative;
 	width: 1000px;
-	top: 50px;
+	top: 130px;
+	z-index: 99999;
 }
 
 #menu ul {
@@ -26,21 +33,21 @@
 #trait1 {
 	margin: auto;
     padding: 0;
-	border-top: 1px solid black;
 	text-align: center;
 	width: 1000px;
 	position: relative;
-	top: 50px;
+	top: 138px;
+	z-index: 1;
 }
 
 #trait2 {
 	margin: auto;
     padding: 0;
-	border-top: 1px solid black;
 	text-align: center;
 	width: 1000px;
 	position: relative;
-	top: 104px;
+	top: 120px;
+	z-index: 1;
 }
 
 #menu a{
@@ -69,8 +76,7 @@
 }
 
 #menu a:hover{
-    color: orange;
-	background: rgba(206, 206, 206,.2);
+    color: #ff38f4;
 }
 
 #menu li:hover > ul{
@@ -78,13 +84,11 @@
 }
 
 #menu #creations a:hover{
-    color: orange;
-	background: rgba(206, 206, 206,.2);
+    color: #ff38f4;
 }
 
 #menu #cours a:hover{
-    color: orange;
-	background: rgba(206, 206, 206,.2);
+    color: #ff38f4;
 }
 
 li {
@@ -127,4 +131,5 @@ li:hover ul li {
 	text-align: right;
 	width: 1000px;
 	position: relative;
+	margin-top: -200px;
 }
