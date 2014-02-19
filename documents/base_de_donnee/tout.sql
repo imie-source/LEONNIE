@@ -764,11 +764,7 @@ INSERT INTO `couleur` (`id_couleur`, `nom_couleur`) VALUES
 (762, 'Zinzolin');
 
 
-INSERT INTO `type_decoration` (`id_typed`, `type_decoration`) VALUES
-(1, 'Aucune'),
-(2, 'Aucune');
-
-INSERT INTO `type_mobilier` (`id_typem`, `type_mobilier`) VALUES
+INSERT INTO `type_produit` (`id_type`, `type_produit`) VALUES
 (1, 'Aucun'),
 (2, 'Meuble'),
 (3, 'Commode'),
@@ -891,7 +887,7 @@ INSERT INTO `media` (`id_media`, `titre_media`,  `type_media`,  `extension_media
 
 INSERT INTO `rubrique` (`id_rubrique`, `titre_rubrique`) VALUES
 (1, 'ACCUEIL'),
-(2, 'MOBILIER'),
+(2, 'produit'),
 (3, 'DECORATIONS'),
 (4, 'PARTICULIERS'),
 (5, 'PROFESSIONNELS'),
@@ -901,12 +897,8 @@ INSERT INTO `rubrique` (`id_rubrique`, `titre_rubrique`) VALUES
 (9, 'BLOG');
 
 
-INSERT INTO `mobilier` (`id_mobilier`, `titre_mobilier`, `prix_mobilier`, `materiau_mobilier`, `txt_mobilier`, `id_typem`, `id_couleur`) VALUES
-(1, 'AUCUNE', 'AUCUNE', 'AUCUNE', 'AUCUNE', 1, 1),
-(2, 'Chiffonier', '495', 'bois', 'Ancien chiffonnier', 3, 281);
-
-INSERT INTO `decoration` (`id_decoration`, `titre_decoration`, `prix_decoration`, `materiau_decoration`, `txt_decoration`, `id_typed`, `id_couleur`) VALUES
-(1, 'AUCUNE', 'AUCUNE', 'AUCUNE', 'AUCUNE', 1, 1),
+INSERT INTO `produit` (`id_produit`, `titre_produit`, `prix_produit`, `materiau_produit`, `txt_produit`, `id_type`, `id_couleur`) VALUES
+(1, 'Chiffonier', '495', 'bois', 'Ancien chiffonnier', 3, 281),
 (2, 'Clayette', '95', 'bois', 'Ces clayettes trouveront leur place dans votre séjour ou votre cuisine pour la scénariser.
 Elles peuvent également être détournées en étagères.', 2, 424);
 
@@ -914,9 +906,8 @@ INSERT INTO `langue` (`id_langue`, `nom_langue`) VALUES
 (1, 'FR'),
 (2, 'EN');
 
-INSERT INTO `article` (`id_article`, `date_article`, `titre_article`, `txt_article`, `id_rubrique`, `id_media`, `id_mobilier`, `id_decoration`, `id_langue`) VALUES
-(1, 'AUCUN', 'AUCUN', 'AUCUN', 1, 1, 1, 1, 1),
-(2, 'Chiffonier', '14/02/2014', 'Ancien chiffonnier', 2, 1, 2, 1, 1);
+INSERT INTO `article` (`id_article`, `date_article`, `titre_article`, `txt_article`, `id_rubrique`, `id_media`, `id_produit`, `id_langue`) VALUES
+(1, 'Chiffonier', '14/02/2014', 'Ancien chiffonnier', 2, 1, 2, 1);
 
 INSERT INTO `rss` (`id_rss`, `link_rss`, `guid_rss`, `pubdate_rss`, `id_article`) VALUES
 (1, 'AUCUN', 'AUCUN', 'AUCUN', 1);
