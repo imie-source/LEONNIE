@@ -14,7 +14,7 @@
 	
 	// Intégration du footer
 	
-	include ("footer.php");
+	include ("../html/footer.html");
 	
 	
 	/* Fin de : page listant les meubles mis en vente */

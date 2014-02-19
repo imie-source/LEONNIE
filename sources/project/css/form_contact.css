@@ -1,0 +1,17 @@
+/* informations sur la personne à contacter */
+
+#infos_contact {
+
+text-align: center;
+position: relative; 
+top : 180px;
+}
+
+/* formulaire de contact */
+
+#form_contact {
+
+text-align: center;
+position: relative;
+margin: 200px auto 75px auto;
+}

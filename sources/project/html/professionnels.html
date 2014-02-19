@@ -1,27 +1,29 @@
-﻿	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="../js/jquery.slides-professionnels.js"></script>
-
+﻿
 	<div id = "professionnels">
 
 	<!-- Intégration du diaporama central -->
 	<div id="positionslide">
 		<div id="slides"  style="width: 620px; height: 410px;">
-			<img src = "../medias/images/01.jpg"/>
-				<img src = "../medias/images/02.jpg" />
-			<img src = "../medias/images/03.jpg" />
-			<img src = "../medias/images/04.jpg" />
-			<input type = "image" src = "../medias/images/previous.png" id = "PreviousButton" class = "slidesjs-previous slidesjs-navigation"></input>
-			<input type = "image" src = "../medias/images/next.png" id = "NextButton" class = "slidesjs-next slidesjs-navigation"></input>
+			<img src = "../medias/images_diaporama_professionnels/01.jpg"/>
+			<img src = "../medias/images_diaporama_professionnels/02.jpg" />
+			<img src = "../medias/images_diaporama_professionnels/03.jpg" />
+			<img src = "../medias/images_diaporama_professionnels/04.jpg" />
+			<input type = "image" src = "../medias/images_diaporama_professionnels/previous.png" id = "PreviousButton" class = "slidesjs-previous slidesjs-navigation"></input>
+			<input type = "image" src = "../medias/images_diaporama_professionnels/next.png" id = "NextButton" class = "slidesjs-next slidesjs-navigation"></input>
 		</div>
 	</div>
 				
 				
-	<!-- Intégration du menu de gauche Particuliers Professionnels dans CREATIONS SUR MESURE -->
-	<?php
-	
-		include 'menu_creations.html';
-	
-	?>
+	<div id = "menucreations">
+		<ul>
+			<li>
+				<a href="particuliers.php">Particuliers</a>
+			</li>
+			<li>
+				<a href="professionnels.php">Professionnels</a>
+			</li>
+		</ul>
+	</div>
 	
 	<!-- Intégration du texte central -->
 	<div id="text">
@@ -48,6 +50,6 @@
 		o des brocanteurs pour dénicher le meuble que vous rechercher</br>
 		</br>
 		</br>
-		Pour plus d'informations : <a href="contact.php">Contact</a></p>	
+		Pour plus d'informations : <a href="form_contact.php">Contact</a></p>	
 			</div>
 	</div>
