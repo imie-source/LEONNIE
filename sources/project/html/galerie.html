@@ -2,10 +2,9 @@
 <div id = "galerie">
 		
 		<form method="POST" action="insererImage.php" enctype="multipart/form-data">
-			<div id="galerie">
-				<ul id="galerie_mini">';
+				<ul id="galerie_mini">
   
-					// On se connecte à la base de données et on va chercher dans la table images les id et on les met dans un tableau
+					<!-- On se connecte à la base de données et on va chercher dans la table images les id et on les met dans un tableau -->
 					<?php $cnxPDO = cnxBase();
 					$result = $cnxPDO->query("SELECT id_media FROM media");
 					$tab= $result->fetchAll(PDO::FETCH_ASSOC);
@@ -15,8 +14,6 @@
 						echo "<a href='../medias/images_galerie/0".$tab[$i]["id_media"].".jpg'". " data-lightbox='roadtrip'><img src='../medias/images_galerie/0".$tab[$i]["id_media"].".jpg'</a>";
 					}
 					?> </ul>
-  
-			</div>
 		</form>
 
 </div>

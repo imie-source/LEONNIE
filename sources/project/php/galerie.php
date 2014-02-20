@@ -7,6 +7,9 @@
 	include ("bandeau.php");
 
 	
+	// Intégration des fonctions
+	include("fonctions.inc.php");
+	
 	// Intégration du contenu de la page
 	
 	include ("../html/galerie.html");
