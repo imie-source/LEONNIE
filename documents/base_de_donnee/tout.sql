@@ -877,13 +877,12 @@ INSERT INTO `type_produit` (`id_type`, `type_produit`) VALUES
 (110, 'Miroir ancien');
 
 INSERT INTO `media` (`id_media`, `titre_media`,  `type_media`,  `extension_media`) VALUES
-(1, 'AUCUN', 'AUCUN', 'AUCUNE'),
-(2, '01', 'image', '.jpg'),
-(3, '02', 'image', '.jpg'),
-(4, '03', 'image', '.jpg'),
-(5, '04', 'image', '.jpg'),
-(6, '05', 'image', '.jpg'),
-(7, '06', 'image', '.jpg');
+(1, '1', 'image', '.jpg'),
+(2, '2', 'image', '.jpg'),
+(3, '3', 'image', '.jpg'),
+(4, '4', 'image', '.jpg'),
+(5, '5', 'image', '.jpg'),
+(6, '6', 'image', '.jpg');
 
 INSERT INTO `rubrique` (`id_rubrique`, `titre_rubrique`) VALUES
 (1, 'ACCUEIL'),

@@ -1,29 +1,23 @@
 <!-- Début de : galerie -->
 <div id = "galerie">
-		<!-- Intégration d'une grande image -->
 		
-			<dl id="photo">
-				<dt>Titre de la photo 1</dt>
-				<dd><img id="big_pict" src="../medias/images_galerie/01.jpg" alt="Photo 1 en taille normale" /></dd>
-			</dl>
-			
-			
-			<!-- Intégration des images -->
-			
-			<ul id="galerie_mini">
-				<li>
-				  <a href="../medias/images_galerie/01.jpg" title="Titre de la photo 1"><img src="../medias/images_galerie/01.jpg" alt="Le titre de la photo 1" /></a>	</li>
-				<li>
-				  <a href="../medias/images_galerie/02.jpg" title="Titre de la photo 2"><img src="../medias/images_galerie/02.jpg" alt="Le titre de la photo 2" /></a>	</li>
-				<li>
-				  <a href="../medias/images_galerie/03.jpg" title="Titre de la photo 3"><img src="../medias/images_galerie/03.jpg" alt="Le titre de la photo 3" /></a>	</li>
-				<li>
-				  <a href="../medias/images_galerie/04.jpg" title="Titre de la photo 4"><img src="../medias/images_galerie/04.jpg" alt="Le titre de la photo 4" /></a>	</li>
-				<li>
-				  <a href="../medias/images_galerie/05.jpg" title="Titre de la photo 5"><img src="../medias/images_galerie/05.jpg" alt="Le titre de la photo 5" /></a>	</li>
-				<li>
-				  <a href="../medias/images_galerie/06.jpg" title="Titre de la photo 6"><img src="../medias/images_galerie/06.jpg" alt="Le titre de la photo 6" /></a>	</li>
+		<form method="POST" action="insererImage.php" enctype="multipart/form-data">
+			<div id="galerie">
+				<ul id="galerie_mini">';
+  
+					// On se connecte à la base de données et on va chercher dans la table images les id et on les met dans un tableau
+					<?php $cnxPDO = cnxBase();
+					$result = $cnxPDO->query("SELECT id_media FROM media");
+					$tab= $result->fetchAll(PDO::FETCH_ASSOC);
+					$count = count($tab);
+					// On affiche les images qui sont dans le dossier images_galerie en fonction des id qui sont dans le tableau, comme ça même si une image est supprimée dans la BDD,il n'y aura pas de problème d'affichage
+					for($i = 0; $i < $count ; $i++){
+						echo "<a href='../medias/images_galerie/0".$tab[$i]["id_media"].".jpg'". " data-lightbox='roadtrip'><img src='../medias/images_galerie/0".$tab[$i]["id_media"].".jpg'</a>";
+					}
+					?> </ul>
+  
+			</div>
+		</form>
 
-			</ul>  
 </div>
 <!-- Fin de : galerie -->
