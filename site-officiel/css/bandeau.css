@@ -1,0 +1,193 @@
+/* image du logo de leonnie */
+#logo {
+	position: relative;
+	text-align: center;
+}
+
+/* positionner le menu et choisir la police */
+#menu {
+	font-family: Rokkitt;
+	margin: auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	width: 780px; /*1000px;*/
+	top: 55px; /*170px;*/
+	z-index: 9999;
+}
+
+/* Position de la barre au dessus de la nav */
+#trait1 {
+	margin: auto;
+	padding: 0;
+	text-align: center;
+	width: 1000px;
+	position: relative;
+	top: 60px; /*178px;*/
+	z-index: 1;
+	
+}
+
+/* Position de la barre au dessous de la nav */
+#trait2 {
+	margin: auto auto 50px auto;
+	padding: 0;
+	text-align: center;
+	width: 1000px;
+	position: relative;
+	top: 50px;
+	z-index: 1;
+}
+
+.rubrique {
+    height: 15px;
+    /*padding: 20px 15px;*/
+    font-size: 14px; /* 16px */
+    color: grey;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    /*width: 45px;*/
+    display: block;
+}
+
+/* effets au survol des rubriques */
+.rubrique:hover {
+    color: #ffa0ff;
+}
+
+.sousRubrique {
+  height: 15px;
+  font-size: 14px; /* 16px */
+  color: grey;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+/* effets au survol des rubriques avec sous-rubriques */
+/*#rubriqueBoutique:hover > ul,
+#rubriqueCreations:hover > ul {  
+    display: block;
+    margin-top: 20px;
+}*/
+
+#rubriqueBoutique:hover > #sousRubriqueBoutique,
+#rubriqueCreations:hover > #sousRubriqueCreations {  
+    display: block;
+    margin-top: 10px;
+}
+
+.sepBandeau {
+  margin-top: 8px;
+  background-image: url('../medias/bandeau/separateur.jpg');
+  width: 16px;
+  height: 20px;
+  margin-left: -6px;
+  float: left;
+}  
+
+#rubriqueAccueil, 
+#rubriqueBoutique, 
+#rubriqueCreations,
+#rubriqueCours,
+#rubriqueGalerie, 
+#rubriqueBlog
+{
+  width: 85px;
+  text-align: center;
+  padding: 10px 10px;
+  float:left;
+  margin:auto;
+  position: relative;
+  /*border: 1px solid red;*/
+}
+
+#rubriqueBoutique {
+
+}
+
+#rubriqueCreations {
+  width: 180px;
+}
+
+#rubriqueCours {
+  width: 120px;
+}
+
+#rubriqueGalerie {
+}
+
+#rubriqueBlog {
+  width: 55px;
+}
+
+#sousRubriqueBoutique,
+#sousRubriqueCreations {
+	margin: auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	display: none;
+	position: absolute;
+	left: 0;
+	z-index: 9999;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+				0 3px 5px rgba(0, 0, 0, .2);
+	background: white;
+	display: none;
+	/*border: 1px solid black;*/
+}
+
+#sousRubriqueBoutique:hover,
+#sousRubriqueCreations:hover {
+  display: block;
+}  
+
+#sousRubriqueBoutique {
+  width: 90px;
+}
+
+#sousRubriqueCreations {
+  width: 190px;
+}
+
+#lang {
+	margin: auto;
+	padding: 0;
+	text-align: right;
+	width: 825px;
+	position: relative;
+	margin-top: -170px;
+	font-family: "Rokkitt";
+	color: #bbb;
+	font-size: 16px;
+	visibility: hidden;
+}
+#lang > a {
+  font-family: "Rokkitt";
+  color: #bbb;
+  font-size: 16px;
+  text-decoration: none;
+}  
+
+
+#icons {
+  border: 1px solid black;
+}
+/* gestion des icônes sur le logo*/
+#icones {
+	margin: auto;
+	padding: 0;
+	text-align: right;
+	width: 850px;
+	position: relative;
+	margin-top: 85px;
+}
+
+/* "Effacement" de la rubrique du menu de la page actuelle */
+.pageActuelle {
+  font-weight: normal;
+}
+

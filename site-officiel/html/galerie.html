@@ -1,0 +1,16 @@
+
+<p>Rubrique non r&eacute;alis&eacute;e pour le moment</p>
+
+<!-- Début de : galerie -->
+<div id = "galerie">
+		
+		<form method="POST" action="insererImage.php" enctype="multipart/form-data">
+				<ul id="galerie_mini">
+  
+					<!-- On se connecte à la base de données et on va chercher dans la table images les id et on les met dans un tableau -->
+					<?php echo $listeImages; ?>	
+					</ul>
+		</form>
+
+<!-- Fin de : galerie -->
+</div>

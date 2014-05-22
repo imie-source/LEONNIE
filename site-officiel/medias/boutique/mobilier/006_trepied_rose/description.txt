@@ -1,0 +1,7 @@
+titre=TABOURET
+prix=125
+description=
+coul-ext=rose
+finition=cire
+coul-int=
+dimensionHPLcm=34,37,25

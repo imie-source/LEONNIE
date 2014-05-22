@@ -1,0 +1,7 @@
+titre=CHIFFONNIER
+prix=495
+description=Ancien chiffonnier
+coul-ext=patiné grenade (vieux rose et bordeaux)
+finition=cirée
+coul-int=peint vieux rose
+dimensionHPLcm=96,40,59

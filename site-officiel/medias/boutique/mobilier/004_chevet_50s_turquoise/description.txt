@@ -1,0 +1,7 @@
+titre=CHEVET
+prix=395
+description=Ce chevet en chêne est recouvert d’un marbre blanc et gris.<br />Il saura autant s’intégrer dans une chambre que dans un hall d’entrée.
+coul-ext=turquoise, blanc et légèrement grisé
+finition=cirée
+coul-int=tiroir : naturel
+dimensionHPLcm=80,37.5,40

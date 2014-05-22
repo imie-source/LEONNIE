@@ -1,0 +1,18 @@
+#footer {
+	font-family: "Helvetica Neue";
+	text-align: center;
+	z-index: 9999;
+	text-decoration: none;
+	margin-top: 50px;
+}
+
+#footer a:hover {
+
+	color: #ffa0ff;
+}
+
+#footer a {
+	color : black;
+	padding-left: 20px;
+	text-decoration: none;
+}

@@ -1,0 +1,165 @@
+/* image du logo de leonnie */
+#logo {
+	position: relative;
+	text-align: center;
+}
+
+/* positionner le menu et choisir la police */
+#menu {
+	font-family: Rokkitt;
+	margin: auto;
+    padding: 0;
+	list-style-type: none;
+	text-align: center;
+    position: relative;
+	width: 1000px;
+	top: 170px;
+	z-index: 99999;
+}
+
+/* gérer les sous catégories */
+#menu ul {
+	
+	margin: auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+    display: none;
+    position: absolute;
+    left: 0;
+    z-index: 99999;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+				0 3px 5px rgba(0, 0, 0, .2);
+	background: white;
+}
+
+#menu ul li a {
+	font-size: 18px;
+}
+
+#menu #creations ul li a {
+	font-size: 18px;
+}
+
+/* Position de la barre au dessus de la nav */
+#trait1 {
+	margin: auto;
+    padding: 0;
+	text-align: center;
+	width: 1000px;
+	position: relative;
+	top: 178px;
+	z-index: 1;
+}
+
+/* Position de la barre au dessous de la nav */
+#trait2 {
+	margin: auto;
+    padding: 0;
+	text-align: center;
+	width: 1000px;
+	position: relative;
+	top: 160px;
+	z-index: 1;
+}
+
+/* Mise en forme des rubriques */
+#menu a{
+    height: 15px;
+    padding: 20px 20px;
+	font-size: 16px;
+    color: grey;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+/* Mise en forme de Créations sur mesures */
+#menu #creations a{
+    height: 15px;
+    padding: 20px 20px;
+	font-size: 16px;
+    color: grey;
+    text-decoration: none;
+}
+
+/* mise en forme de Cours */
+#menu #cours a{
+    height: 15px;
+    padding: 20px 20px;
+	font-size: 16px;
+    color: grey;
+    text-decoration: none;
+}
+
+/* effets au survol des rubriques */
+#menu a:hover{
+    color: #ffa0ff;
+}
+
+/* effets au survol des rubriques */
+#menu li:hover > ul{
+    display: block;
+}
+
+/* effets au survol de créations sur mesure */
+#menu #creations a:hover{
+    color: #ffa0ff;
+}
+
+/* effets au survol de cours */
+#menu #cours a:hover{
+    color: #ffa0ff;
+}
+
+/* gestion de la liste des rubriques */
+li {
+	float:left;
+	margin:auto;
+	position: relative;	
+}
+
+/* gestions des liens des rubriques */
+li a {
+	display: block;
+	width: 102.5px;
+	padding: 5px;
+}
+
+/* gestion de la longueur Créations sur mesures */
+#creations a {
+	display:block;
+	width:200px;
+	padding:5px;
+}
+
+/* gestion de la longueur le cours */
+#cours a {
+	display:block;
+	width:150px;
+	padding:5px;
+}
+
+/* fixer les éléments de la nav */
+ul li ul {
+	display:none;
+}
+
+/* fixer le survol des rubriques */
+ul li:hover ul {
+	display:block;
+}
+
+/* fixer le suvrol des sous rubriques */
+li:hover ul li {
+	float:none;
+}
+
+/* gestion des icônes sur le logo*/
+#icones {
+	margin: auto;
+    padding: 0;
+	text-align: right;
+	width: 1000px;
+	position: relative;
+	margin-top: -200px;
+}

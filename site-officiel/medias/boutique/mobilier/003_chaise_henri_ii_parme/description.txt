@@ -1,0 +1,7 @@
+titre=CHAISE Henri II
+prix=195
+description=Cette chaise très fraîche saura autant s’intégrer autour d’une table qu’en chaise de décoration pour supporter de jolies fleurs…
+coul-ext=parme / blanc
+finition=cire
+coul-int=
+dimension=H. assise 45 cm x P. 40cm x L. 42cm – H. dossier 88cm

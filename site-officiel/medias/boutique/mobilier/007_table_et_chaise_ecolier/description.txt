@@ -1,0 +1,8 @@
+titre=TABLE ET CHAISE D'ECOLIER
+prix=195
+description=
+coul-ext=table: gris bleuté, chaise: vert pâle
+finition=cire
+Pieds=métalliques
+Dimensions table=H. 52cm x P. 35cm x L. 50cm
+Dimensions chaise=H. 63cm x P. 40cm x L. 33cm

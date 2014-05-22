@@ -1,0 +1,53 @@
+
+	
+		<!-- Intégration du bandeau de gauche -->	
+			<ul id="sousMenu">
+			    <li><a href="?b=mobilier">Mobilier</a></li>
+			    <li><a href="?b=decoration">D&eacute;coration</a></li>
+			</ul>
+		
+		<script type="text/javascript" src="../js/jquery.fancybox/jquery-1.4.3.min.js"></script>
+		<script src="../js/jquery.fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+		<script type="text/javascript">
+
+		  $(document).ready(function() {
+		    $(".fancybox").fancybox({
+		      'transitionIn'	:	'elastic',
+		      'transitionOut'	:	'elastic',
+		      'speedIn'		:	600, 
+		      'speedOut'	:	200, 
+		      'overlayShow'	:	true,
+		      'z-index'		: 10000
+		    });
+		  });
+		  
+		  </script>
+		  
+		<div id="main">
+		  <div id="colonneDesc">
+		    <div id="cadreDesc">
+		      <p id="titre"><?= $desc["titre"] ?></p>
+		      <p id="prix"><?= $desc["prix"] ?> &euro;</p>
+		      <p id="description" class="info"><?= $desc["description"] ?></p>
+		      <p id="couleurExt" class="info">Couleur ext&eacute;rieur : <?= $desc["coulext"] ?></p>
+		      <p id="finition" class="info">Finition : <?= $desc["finition"] ?></p>
+		      <p id="couleurInt" class="info">Couleur int&eacute;rieur : <?= $desc["coulint"] ?></p>
+		      <p id="dimension" class="info">Dimensions : <?= $dimensions ?></p>
+		      <?= $autresDetails ?>
+		      <ul id="retraitCommande">
+			<li>A venir retirer sur place<br />Livraison possible sur devis</li>
+			<li>Pour commander : <span class="lien" onclick="document.location='form_contact.php';" title="Aller au formulaire de contact">contact@leonnie.com</span></li>
+		      </ul>
+		    </div>
+		  </div>  
+		  <div id="cadreImages">
+		    <div id="imagePrincipale">
+		      <img src="<?= $urlImgPrinc ?>" alt="<?= $desc["titre"] ?>" />
+		    </div>
+		    <div id="autresImages">
+			<?= $autresImages ?>
+		    </div>
+		  </div>
+		</div>
+		

@@ -1,0 +1,160 @@
+#grille {
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+  padding-top: 35px;
+}  
+
+#grille div {
+  width: 100%;
+  display: table;
+  padding-bottom: 30px;
+}  
+
+#grille div div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 33%;
+}
+
+#grille img {
+  margin: auto;
+  width: 250px;
+  height: 200px;
+  
+}
+
+#main {
+  display: table;
+  width: 1000px;
+  margin: auto;
+  padding-top: 35px;
+}  
+
+#colonneDesc {
+  display: table-cell;
+  width: 400px;
+  vertical-align: top;
+}
+
+#cadreDesc {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#cadreDesc p+p+p {
+  margin-top: 20px;
+}
+
+#cadreDesc > p,ul > li{
+  color: #808080;
+}  
+
+#titre {
+  text-align: center;
+  font-family: "Rokkitt";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#prix {
+  text-align: center;
+  font-family: 'Helvetica Neue'; 
+  margin-bottom: 80px;
+}
+
+#description {
+}
+
+#couleurExt {
+}
+
+#finition {
+}
+
+#couleurInt {
+}
+
+#dimension {
+ 
+}
+
+.info {
+  font-family: 'Helvetica Neue';
+  font-size: 14px;
+}  
+
+#retraitCommande {
+  display: block;
+  margin-top: 40px;
+}  
+
+#retraitCommande li {
+  font-family: 'Helvetica Neue';
+  font-size: 14px;  
+  line-height: 200%;
+  list-style-type: none;
+  background-image: url('../medias/images/puce-fleche.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0.55em;
+  padding-left: 40px;
+  margin-left: -40px;
+}
+
+#cadreImages {
+  display: table-cell;
+  text-align: center;
+  vertical-align: top;
+}
+
+#imagePrincipale {
+  
+}
+
+#imagePrincipale img {
+  width: 300px;
+}
+
+#autresImages {
+  margin-top: 20px;
+  width: 600px;
+  text-align: center;
+  display: block;
+}
+
+.vignette {
+    width: 100px;
+    height: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-size: 200px;
+}
+
+#sousMenu {
+  position: absolute;
+  left: 50%;
+  width: 150px;
+  margin-left: -650px;
+  padding-top: 200px;
+}
+
+#sousMenu li {
+  list-style-type: none; 
+}
+
+#sousMenu li a {
+  text-decoration: none;
+  font-family: 'Rokkitt';
+  font-size: 16px;  
+  line-height: 200%;
+  color: #808080; 
+  font-weight: bold;
+}
+
+.lien {
+  cursor: pointer;
+}

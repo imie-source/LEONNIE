@@ -1,0 +1,7 @@
+titre=TABLE
+prix=195
+description=Cette table avec plateau en forme de tronc laisse apparaître un très joli veinage sublimé par la patine.
+coul-ext=jaune citron
+finition=au choix cire ou huile de soja
+coul-int=
+dimension=H. 43cm x diamètre plateau 62cm

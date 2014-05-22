@@ -1,0 +1,22 @@
+#footer {
+	text-align: center;
+	z-index: 9999;
+	text-decoration: none;
+	margin-top: 50px;
+	clear:both;
+
+	
+}
+
+#footer a:hover {
+
+	color: #ffa0ff;
+}
+
+#footer a {
+	padding-left: 20px;
+	text-decoration: none;
+	color: #808080;
+	/*font-weight: bold;*/
+	font-family: "Rokkitt";
+}

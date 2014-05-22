@@ -1,0 +1,8 @@
+titre=TABLE BASSE
+prix=495
+description=Cette table ronde à lattes saura autant s’intégrer dans un intérieur ethnique, bohême chic que dans un style campagne.
+coul-ext=naturel, blanc et vert pâle
+finition=huile de soja (résistant à l’eau)
+coul-int=
+dimension=H. 44cm x diamètre plateau 90cm
+Bois=chêne

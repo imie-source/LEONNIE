@@ -1,0 +1,7 @@
+titre=CHEVET
+prix=395
+description=Ce chevet style art déco est original. Il allie à son plateau marbre (beige, blanc et pointe de rouge brique) une couleur tonique vert pomme.<br />Il trouvera sa place dans une chambre ou une entrée.
+coul-ext=patiné vert pomme / blanc
+finition=cirée
+coul-int=meuble : kaki
+dimensionHPLcm=63,33,50

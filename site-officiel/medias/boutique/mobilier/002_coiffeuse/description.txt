@@ -1,0 +1,7 @@
+titre=COIFFEUSE
+prix=795
+description=Cette coiffeuse en chêne est recouverte d’un marbre gris et blanc.<br />Cette coiffeuse peut être détournée dans une cuisine ou une entrée.
+coul-ext=patiné orange / brique
+finition=cirée
+coul-int=tiroir : orange pâle
+dimension=H. (plateau) 78cm, H. (marbre) 102cm x P. 52cm x l. 101cm

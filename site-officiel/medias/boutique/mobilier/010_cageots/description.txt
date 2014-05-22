@@ -1,0 +1,7 @@
+titre=CLAYETTE
+prix=l'unité : 95
+description=Ces clayettes d’antan trouveront leur place dans votre séjour ou votre cuisine pour la scénariser.<br />Elles peuvent également être détournées en étagères.<br />
+coul-ext=6 couleurs de patines disponibles :<br />- Blanc<br />- Jaune pâle<br />- Vert<br />- Parme<br />- Bleu pâle<br />- Bordeaux
+finition=au choix cire ou huile de soja
+coul-int=
+dimensionHPLcm=14,33,66
